@@ -1,0 +1,186 @@
+*{
+    background-color: antiquewhite;
+}
+.names{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#turn{
+    position: absolute;
+    font-size: 45px;
+    color: purple ;
+    margin-left: 3%;
+    margin-top: 10%;
+}
+.myButton {
+    position: absolute;
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:8px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+    margin-left: 7%;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+#player1,#player2{
+    border-radius: 5%;
+    width: 17%;
+    font-weight: bold;
+    background-color: palegreen;
+}
+h3{
+    position: absolute;
+    font-size: 40px;
+    margin-left: 27%;
+    color: blue;
+    top: 2%;
+}
+.mytick{
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    margin-left: 30px;
+}
+.mycircle{
+    width: 65px;
+    height: 65px;
+    margin-top: 0;
+    margin-left: 30px;
+}
+
+#board{
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+}
+td{
+    width: 133.3px;
+    height: 133.3px;
+}
+#one{
+    border-top: none;
+    border-left: none;
+    border-right: 3px solid red;
+    border-bottom: 3px solid red;
+}
+#two{
+    border-top: none;
+    border-right: 3px solid red;
+    border-bottom: 3px solid red;
+    border-left: 3px solid red;
+}
+#three{
+    border-top: none;
+    border-right: none;
+    border-bottom: 3px solid red;
+    border-left: 3px solid red;
+}
+#four{
+    border-left: none;
+    border-right: 3px solid red;
+    border-bottom: 3px solid red;
+    border-top: 3px solid red;
+}
+#five{
+    border-right: 3px solid red;
+    border-bottom: 3px solid red;
+    border-left: 3px solid red;
+    border-top: 3px solid red;
+}
+#six{
+    border-right: none;
+    border-bottom: 3px solid red;
+    border-left: 3px solid red;
+    border-top: 3px solid red;
+}
+#seven{
+    border-left: none;
+    border-bottom: none;
+    border-right: 3px solid red;
+    border-top: 3px solid red;
+}
+#eight{
+    border-bottom: none;
+    border-right: 3px solid red;
+    border-left: 3px solid red;
+    border-top: 3px solid red;
+}
+#nine{
+    border-bottom: none;
+    border-right: none;
+    border-left: 3px solid red;
+    border-top: 3px solid red;
+}
+
+
+.restartbtn {
+    position: absolute;
+    top: 85%;
+    margin-left: 7%;
+    background-color:#44c767;
+	border-radius:33px;
+	border:2px solid #18ab29;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 2px 0px #2f6627;
+}
+.restartbtn:hover {
+	background-color:#5cbf2a;
+}
+
+#resultLine{
+    border: none;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 40%;
+    left: 35%;
+    background: none;
+    z-index: -100;
+}
+#VLonethree{
+    border: none;
+    position: absolute;
+    width: 315px;
+    height: 400px;
+    top: 32%;
+    left: 38%;
+    background: none;
+    z-index: -100;
+}
+#Vmiddle{
+    border: none;
+    position: absolute;
+    width: 315px;
+    height: 405px;
+    top: 31%;
+    left: 49%;
+    background: none;
+    z-index: -100;
+}
+#Hmiddle{
+    border: none;
+    position: absolute;
+    width: 412px;
+    height: 100px;
+    top: 47%;
+    left: 35%;
+    background: none;
+    z-index: -100;
+
+}
